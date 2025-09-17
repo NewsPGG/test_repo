@@ -2,6 +2,13 @@
 
 Этот репозиторий создан для обучения Git и GitHub
 
-## Важное назидание 
+# Контакты
+Имя: Симонов Кирилл
 
-!["alt text"](https:/raw.githubusercontent.com/louim/in-case-of-fire/refs/heads/master/in_case_of_fire.png)
+tg: https://t.me/NewsPGG
+
+email: st142001@student.spbu.ru | kirillsimonov3@mail.ru
+
+## Важное назидание
+
+!["alt text"](https://raw.githubusercontent.com/louim/in-case-of-fire/refs/heads/master/in_case_of_fire.png)
