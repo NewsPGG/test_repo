@@ -1,5 +1,10 @@
+---
+layout: default
+---
+
 # Образование
 - Студент бакалавриата СПбГУ по направлению «**Технологии программирования**»
 
 # Контакты
 - email: kirillsimonov3@mail.ru | st142001@student.spbu.ru
+- telegram: [NewsPGG](https://t.me/NewsPGG>)
