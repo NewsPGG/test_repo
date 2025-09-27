@@ -3,3 +3,4 @@
 
 # Контакты
 - email: kirillsimonov3@mail.ru | st142001@student.spbu.ru
+- telegram: [NewsPGG](https://t.me/NewsPGG)
