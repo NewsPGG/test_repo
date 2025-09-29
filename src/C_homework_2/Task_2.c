@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int main() {
@@ -24,4 +24,3 @@ int main() {
         printf("%d\n", count * check);
     }
 }
-*/
