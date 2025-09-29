@@ -5,15 +5,19 @@
 -- Check for working C compiler: /usr/bin/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (0.2s)
-CMake Error at CMakeLists.txt:8 (add_executable):
-  Cannot find source file:
+-- Configuring done (0.5s)
+CMake Error:
+  Running
 
-    src/C_homework_2/Task_1.c
+   '/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja' '-C' '/Users/kirillsimonov/test_repo/cmake-build-debug' '-t' 'recompact'
+
+  failed with:
+
+   ninja: warning: bad deps log signature or version; starting over
+
+  ninja: error: failed recompaction: No such file or directory
 
 
-CMake Error at CMakeLists.txt:8 (add_executable):
-  No SOURCES given to target: test_repo
 
-
+-- Generating done (0.0s)
 CMake Generate step failed.  Build files cannot be regenerated correctly.
