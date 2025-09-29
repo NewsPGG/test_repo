@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int counts[28] = {0};
@@ -19,4 +19,3 @@ int main() {
     printf("%lld\n", happyTickets);
     return 0;
 }
-*/
