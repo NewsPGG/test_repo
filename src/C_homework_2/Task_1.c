@@ -1,5 +1,3 @@
-/*
-
 #include <stdio.h>
 
 int main() {
@@ -9,4 +7,3 @@ int main() {
     const int sum = x2 * (x2 + x) + x2 + x + 1; // Умножение 2
     printf("%d\n", sum);
 }
-*/
