@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/kirillsimonov/test_repo Select CMakeLists.txt
