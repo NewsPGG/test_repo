@@ -1,3 +1,0 @@
-/Users/kirillsimonov/test_repo/cmake-build-debug/CMakeFiles/test_repo.dir
-/Users/kirillsimonov/test_repo/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/kirillsimonov/test_repo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

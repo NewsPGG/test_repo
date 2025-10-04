@@ -1,6 +1,0 @@
-# ninja log v6
-0	25	1759119833348261078	CMakeFiles/test_repo.dir/src/C_homework_2/Task_1.c.o	534f13e7a7a430c
-2	119	1759126521199332773	CMakeFiles/test_repo.dir/src/C_homework_2/Task_4.c.o	76663576bc586f37
-139	227	1759126632844567017	test_repo	f26bc76e4cfc8fa9
-2	122	1759120997504157627	CMakeFiles/test_repo.dir/src/C_homework_2/Task_2.c.o	65118bb75429f75c
-1	139	1759126632706251275	CMakeFiles/test_repo.dir/src/C_homework_2/Task_3.c.o	1cc3c6936ec9ad4d
