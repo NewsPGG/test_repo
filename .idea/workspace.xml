@@ -23,18 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b4c67e-de30-4541-8cfb-4bb1b066ef43" name="Changes" comment="Return its again">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-cd4bb002c90991e9bcd7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2025-10-04T19-05-00-0302.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C_homework_2/Task_1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C_homework_2/Task_2.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C_homework_2/Task_3.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C_homework_2/Task_4.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Python_homework_2/euclid.py" beforeDir="false" />
-    </list>
+    <list default="true" id="62b4c67e-de30-4541-8cfb-4bb1b066ef43" name="Changes" comment="Return its again" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
