@@ -22,5 +22,7 @@ int main() {
         }
 
         printf("%d\n", count * check);
+
+        return 0;
     }
 }
