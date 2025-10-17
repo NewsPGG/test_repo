@@ -1,9 +1,17 @@
 #include <stdio.h>
 
+int multiplication(int number) {
+    int number2 = number * number; // Умножение 1
+    int sum = number2 * (number2 + number) + number2 + number + 1; // Умножение 2
+    return sum;
+}
+
 int main() {
-    const int x;
+    int x;
+    printf("Введите x: ");
     scanf("%d", &x);
-    const int x2 = x * x; // Умножение 1
-    const int sum = x2 * (x2 + x) + x2 + x + 1; // Умножение 2
-    printf("%d\n", sum);
+    int result = multiplication(x);
+    printf("%d\n", result);
+
+    return 0;
 }
