@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62b4c67e-de30-4541-8cfb-4bb1b066ef43" name="Changes" comment="Return its again">
+      <change beforePath="$PROJECT_DIR$/Task_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Homework_2/Task_1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Homework_2/Task_2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Homework_2/Task_3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Homework_2/Task_4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Homework_3/Task_1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Homework_3/Task_2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C_Homework_3/Task_3.c" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Stack" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NewsPGG&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:NewsPGG/test_repo.git&quot;,
+    &quot;accountId&quot;: &quot;66099241-7561-40cb-8dc3-acf64664b994&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Tests/SortedList.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Tests/SortedList.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Tests/Task1.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Tests/Tests.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="34TuyQBv6JRGSozJN0kMMZGVPDg" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;C/C++ File.Hello1.cpp (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Hello1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Stackkkk.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task1.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task1.c (2).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task1.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task2.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task2.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task3.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task_1.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task_2.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task_2.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task_3.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Task_3.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.test.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.test_repo.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Bubble Algorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Curry_uncurry_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.euclid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;C__Homework8__Task1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kirillsimonov/test_repo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Task1.c (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_repo" TARGET_NAME="Task1.c" CONFIG_NAME="Task1.c">
+      <option name="sourceFile" value="src/Tests/Task1.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_repo" TARGET_NAME="Task1.c" CONFIG_NAME="Task1.c">
+      <option name="sourceFile" value="src/SortedList/Task1.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_repo" TARGET_NAME="Task2.c" CONFIG_NAME="Task2.c">
+      <option name="sourceFile" value="$PROJECT_DIR$/index.md" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_repo" TARGET_NAME="Task3.c" CONFIG_NAME="Task3.c">
+      <option name="sourceFile" value="src/Stack/Task3.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_3.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_repo" TARGET_NAME="Task_3.c" CONFIG_NAME="Task_3.c">
+      <option name="sourceFile" value="src/C_Homework_2/Task_3.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_repo" TARGET_NAME="test.c" CONFIG_NAME="test.c">
+      <option name="sourceFile" value="src/Stack/test.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62b4c67e-de30-4541-8cfb-4bb1b066ef43" name="Changes" comment="" />
+      <created>1757940647753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757940647753</updated>
+      <workItem from="1759118733702" duration="10031000" />
+      <workItem from="1761250138168" duration="1034000" />
+      <workItem from="1761399309172" duration="1257000" />
+      <workItem from="1761566117444" duration="929000" />
+      <workItem from="1761573577413" duration="1845000" />
+      <workItem from="1761839919571" duration="9150000" />
+      <workItem from="1762436011375" duration="9516000" />
+      <workItem from="1762452607113" duration="3036000" />
+      <workItem from="1762530610262" duration="6000" />
+      <workItem from="1762531532902" duration="4176000" />
+      <workItem from="1762537278914" duration="5678000" />
+      <workItem from="1762945086804" duration="195000" />
+      <workItem from="1763117705970" duration="6891000" />
+      <workItem from="1763135850787" duration="7365000" />
+    </task>
+    <task id="LOCAL-00001" summary="Return its again">
+      <option name="closed" value="true" />
+      <created>1757940732571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757940732571</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Return its again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Return its again" />
+  </component>
+</project>
