@@ -209,7 +209,7 @@ void run_all_tests() {
     test_remove_null_list();
     test_get_null_list();
 
-    printf("Тесты завершены\n");
+    printf("Все тесты завершены успешно!\n");
 }
 
 int main(int argc, char *argv[]) {
@@ -222,12 +222,17 @@ int main(int argc, char *argv[]) {
     int command;
 
     while (1) {
-        printf("0 - Выход \n");
+        printf("\n0 - Выход \n");
         printf("1 - Добавить элемент \n");
         printf("2 - Удалить элемент \n");
         printf("3 - Вывести список \n");
         printf("Выберите команду: ");
-        scanf("%d", &command);
+
+        if (scanf("%d", &command) != 1) {
+            printf("Ошибка ввода! Введите число.\n");
+            while (getchar() != '\n'); // Очистка буфера ввода
+            continue;
+        }
 
         switch (command) {
             case 0:
