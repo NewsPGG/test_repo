@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     const int size;
     printf("Введите размер массива: ");
     scanf("%d", &size);
@@ -15,7 +16,7 @@ int main() {
         if (array[i] == 0) {
             count++;
         }
-     }
+    }
 
     printf("%d\n", count);
 
