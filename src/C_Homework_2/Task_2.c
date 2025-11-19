@@ -21,7 +21,6 @@ int main()
             a = a - b;
             count++;
         }
-
         printf("%d\n", count * check);
     }
 }
