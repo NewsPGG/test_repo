@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void coup(int arr[], int start, int end) {
+void coup(int arr[], int start, int end)
+{
     int temp;
     while (start < end) {
         temp = arr[start];
@@ -11,7 +12,8 @@ void coup(int arr[], int start, int end) {
     }
 }
 
-int main() {
+int main()
+{
     int array[1000], n, m;
     printf("Введите числа n и m: \n");
     scanf("%d %d", &n, &m);

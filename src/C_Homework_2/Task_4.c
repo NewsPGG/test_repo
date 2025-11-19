@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main() {
-    int counts[28] = {0};
+int main()
+{
+    int counts[28] = { 0 };
 
     for (int a = 0; a <= 9; a++) {
         for (int b = 0; b <= 9; b++) {
@@ -16,6 +17,6 @@ int main() {
         happyTickets += counts[s] * counts[s];
     }
 
-    printf("%lld\n", happyTickets);
+    printf("%d\n", happyTickets);
     return 0;
 }
