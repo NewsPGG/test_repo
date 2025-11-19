@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     const int x;
     scanf("%d", &x);
     const int x2 = x * x; // Умножение 1
