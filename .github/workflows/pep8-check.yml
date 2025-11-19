@@ -1,14 +1,12 @@
 name: PEP 8 Check
 
 on:
-  push:
-    branches: [ main, homeworksPython, Homework4_Task1, Homework5_Task1, Python_Homework6_Task1 ]
-  pull_request:
-    branches: [ main, homeworksPython, Homework4_Task1, Homework5_Task1, Python_Homework6_Task1 ]
+  - push
+  - pull_request
 
 jobs:
   pep8-check:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     
     steps:
     - name: Checkout code
