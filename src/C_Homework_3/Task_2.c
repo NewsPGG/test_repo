@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int check(const char *S, const char *S1) {
+int check(const char *S, const char *S1)
+{
     int count = 0;
     int lenS = strlen(S);
     int lenS1 = strlen(S1);
@@ -14,7 +15,8 @@ int check(const char *S, const char *S1) {
     return count;
 }
 
-int main() {
+int main()
+{
     char S[1000], S1[1000];
 
     printf("Введите строку S: ");
