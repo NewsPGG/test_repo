@@ -14,7 +14,7 @@ def tree_huffman_code(array_numbers_elements):
         return ["0"]
 
     # Создаем список узлов: (частота, символ, левый_потомок, правый_потомок)
-    nodes = [(freq, i, None, None) for i, freq in enumerate(array_numbers_elements)]
+    nodes = [(freq, symbol, None, None) for symbol, freq in enumerate(array_numbers_elements)]
 
     # Строим дерево Хаффмана
     while len(nodes) > 1:
