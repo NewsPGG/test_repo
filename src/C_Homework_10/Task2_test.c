@@ -1,8 +1,9 @@
 #include "double_parser.h"
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
     // Тест 1: -2.5
     printf("Тест -2.5:\n");
     format_double(-2.5);
