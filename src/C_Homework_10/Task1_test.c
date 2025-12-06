@@ -58,14 +58,17 @@ int main()
     to_binary_twos_complement(10, binary);
 
     printf("Двоичное представление 10: ");
-    for (int i = 0; i < 8; i++) {
+    for (int i = 0; i < 8; i++)
+    {
         printf("%d", binary[i]);
     }
 
     int expected[8] = {0, 0, 0, 0, 1, 0, 1, 0};
     int correct = 1;
-    for (int i = 0; i < 8; i++) {
-        if (binary[i] != expected[i]) {
+    for (int i = 0; i < 8; i++)
+    {
+        if (binary[i] != expected[i])
+        {
             correct = 0;
             break;
         }
