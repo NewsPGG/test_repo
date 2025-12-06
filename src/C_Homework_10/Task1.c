@@ -1,17 +1,21 @@
 #include <stdio.h>
 
-void to_binary_twos_complement(int num, int binary[8]) {
+void to_binary_twos_complement(int num, int binary[8])
+{
     char char_num = num;
 
-    for (int i = 7; i >= 0; i--) {
+    for (int i = 7; i >= 0; i--)
+    {
         binary[7 - i] = (char_num >> i) & 1;
     }
 }
 
-int add_binary_twos_complement(const int a_bin[8], const int b_bin[8], int sum_bin[8]) {
+int add_binary_twos_complement(const int a_bin[8], const int b_bin[8], int sum_bin[8])
+{
     int carry = 0;
 
-    for (int i = 7; i >= 0; i--) {
+    for (int i = 7; i >= 0; i--)
+    {
         int s = a_bin[i] + b_bin[i] + carry;
         sum_bin[i] = s % 2;
         carry = s / 2;
@@ -20,18 +24,22 @@ int add_binary_twos_complement(const int a_bin[8], const int b_bin[8], int sum_b
     return carry;
 }
 
-int from_binary_twos_complement(const int binary[8]) {
+int from_binary_twos_complement(const int binary[8])
+{
     char result = 0;
 
-    for (int i = 0; i < 8; i++) {
+    for (int i = 0; i < 8; i++)
+    {
         result = (result << 1) | binary[i];
     }
 
     return result;
 }
 
-void print_binary(const int binary[8]) {
-    for (int i = 0; i < 8; i++) {
+void print_binary(const int binary[8])
+{
+    for (int i = 0; i < 8; i++)
+    {
         printf("%d", binary[i]);
     }
 }
