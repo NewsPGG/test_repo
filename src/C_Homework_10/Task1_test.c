@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 void to_binary_twos_complement(int num, int binary[8]);
-int add_binary_twos_complement(const int a_bin[8], const int b_bin[8], int sum_bin[8]);
+int add_binary_twos_complement(const int a_bin[8], const int b_bin[8],
+                               int sum_bin[8]);
 int from_binary_twos_complement(const int binary[8]);
 
-int main()
-{
+int main() {
     // Тест 1
     printf("Тест 1: 5 + 6 = 11\n");
     int bin1[8], bin2[8], sum[8];
@@ -58,17 +58,14 @@ int main()
     to_binary_twos_complement(10, binary);
 
     printf("Двоичное представление 10: ");
-    for (int i = 0; i < 8; i++)
-    {
+    for (int i = 0; i < 8; i++) {
         printf("%d", binary[i]);
     }
 
     int expected[8] = {0, 0, 0, 0, 1, 0, 1, 0};
     int correct = 1;
-    for (int i = 0; i < 8; i++)
-    {
-        if (binary[i] != expected[i])
-        {
+    for (int i = 0; i < 8; i++) {
+        if (binary[i] != expected[i]) {
             correct = 0;
             break;
         }
