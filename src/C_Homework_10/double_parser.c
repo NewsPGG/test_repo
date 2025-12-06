@@ -1,7 +1,8 @@
 #include "double_parser.h"
 #include <stdio.h>
 
-DoubleComponents extract_double(double d) {
+DoubleComponents extract_double(double d)
+{
     DoubleBits db;
     db.value = d;
 
@@ -17,14 +18,16 @@ DoubleComponents extract_double(double d) {
     return comp;
 }
 
-int get_real_exponent(DoubleComponents comp) {
+int get_real_exponent(DoubleComponents comp)
+{
     if (comp.is_zero || !comp.is_normal) {
         return -1022;
     }
     return comp.exponent - 1023;
 }
 
-uint64_t get_full_mantissa(DoubleComponents comp) {
+uint64_t get_full_mantissa(DoubleComponents comp)
+{
     if (comp.is_normal) {
         return comp.mantissa | (1ULL << 52);
     } else {
@@ -32,22 +35,25 @@ uint64_t get_full_mantissa(DoubleComponents comp) {
     }
 }
 
-void print_mantissa(uint64_t full_mantissa) {
+void print_mantissa(uint64_t full_mantissa)
+{
     printf("1.");
-    
+
     uint64_t frac = full_mantissa & ((1ULL << 52) - 1);
     uint64_t remainder = frac;
-    
+
     for (int i = 0; i < 20; i++) {
         remainder *= 10;
         int digit = remainder >> 52;
         printf("%d", digit);
         remainder &= (1ULL << 52) - 1;
-        if (remainder == 0) break;
+        if (remainder == 0)
+            break;
     }
 }
 
-void format_double(double number) {
+void format_double(double number)
+{
     DoubleComponents comp = extract_double(number);
 
     if (comp.is_zero) {
