@@ -2,12 +2,14 @@
 
 #include <stdint.h>
 
-typedef union DoubleBits {
+typedef union DoubleBits
+{
     double value;
     uint64_t bits;
 } DoubleBits;
 
-typedef struct DoubleComponents {
+typedef struct DoubleComponents
+{
     int sign;
     uint64_t mantissa;
     int exponent;
