@@ -4,7 +4,8 @@
 int main()
 {
     int a, b;
-    scanf("%d %d", &a, &b);
+    scanf("%d%d", &a, &b);
+
     if (b == 0) {
         printf("Не делите на 0!!\n");
     } else {
@@ -12,14 +13,16 @@ int main()
         if ((a < 0 && b > 0) || (a > 0 && b < 0)) {
             check = -1;
         }
-        a = abs(a);
-        b = abs(b);
 
+        int abs_b = abs(b);
         int count = 0;
-        while (a >= b) {
-            a = a - b;
+
+        while ((a < 0 ? -a : a) > abs_b || a < 0) {
+            a = a - b * check;
             count++;
         }
+
         printf("%d\n", count * check);
     }
+    return 0;
 }
