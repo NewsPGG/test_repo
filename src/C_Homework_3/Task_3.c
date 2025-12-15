@@ -18,7 +18,6 @@ int main()
             }
             count--;
         }
-
     }
 
     if (count == 0) {
