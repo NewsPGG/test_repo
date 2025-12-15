@@ -6,8 +6,7 @@ int main()
     List* list = newList();
     int command;
 
-    while (1)
-    {
+    while (1) {
         printf("0 - Выход \n");
         printf("1 - Добавить элемент \n");
         printf("2 - Удалить элемент \n");
@@ -15,21 +14,18 @@ int main()
         printf("Выберите команду: ");
         scanf("%d", &command);
 
-        switch (command)
-        {
+        switch (command) {
         case 0:
             deleteList(list);
             return 0;
-        case 1:
-        {
+        case 1: {
             int value;
             printf("Введите значение: ");
             scanf("%d", &value);
             insertList(list, value);
             break;
         }
-        case 2:
-        {
+        case 2: {
             int idx;
             printf("Введите индекс: ");
             scanf("%d", &idx);
