@@ -1,11 +1,11 @@
 #include "SortedList.h"
-#include "SortedList.c"
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
 
-void test_new_list() {
-    List *list = newList();
+void test_new_list()
+{
+    List* list = newList();
 
     assert(list != NULL);
     assert(list->head == NULL);
@@ -14,8 +14,9 @@ void test_new_list() {
     printf("Тест 1: Выполнено\n");
 }
 
-void test_insert_into_empty_list() {
-    List *list = newList();
+void test_insert_into_empty_list()
+{
+    List* list = newList();
 
     assert(insertList(list, 5) == true);
     assert(list->head != NULL);
@@ -26,8 +27,9 @@ void test_insert_into_empty_list() {
     printf("Тест 2: Выполнено\n");
 }
 
-void test_insert_sorted_order() {
-    List *list = newList();
+void test_insert_sorted_order()
+{
+    List* list = newList();
 
     insertList(list, 3);
     insertList(list, 2);
@@ -41,8 +43,9 @@ void test_insert_sorted_order() {
     printf("Тест 3: Выполнено\n");
 }
 
-void test_insert_duplicates() {
-    List *list = newList();
+void test_insert_duplicates()
+{
+    List* list = newList();
 
     insertList(list, 2);
     insertList(list, 2);
@@ -57,8 +60,9 @@ void test_insert_duplicates() {
     printf("Тест 4: Выполнено\n");
 }
 
-void test_remove_from_empty_list() {
-    List *list = newList();
+void test_remove_from_empty_list()
+{
+    List* list = newList();
 
     assert(removeList(list, 0) == false);
     assert(removeList(list, -1) == false);
@@ -68,8 +72,9 @@ void test_remove_from_empty_list() {
     printf("Тест 5: Выполнено\n");
 }
 
-void test_remove_first_element() {
-    List *list = newList();
+void test_remove_first_element()
+{
+    List* list = newList();
 
     insertList(list, 1);
     insertList(list, 2);
@@ -84,8 +89,9 @@ void test_remove_first_element() {
     printf("Тест 6: Выполнено\n");
 }
 
-void test_remove_middle_element() {
-    List *list = newList();
+void test_remove_middle_element()
+{
+    List* list = newList();
 
     insertList(list, 1);
     insertList(list, 2);
@@ -100,8 +106,9 @@ void test_remove_middle_element() {
     printf("Тест 7: Выполнено\n");
 }
 
-void test_remove_last_element() {
-    List *list = newList();
+void test_remove_last_element()
+{
+    List* list = newList();
 
     insertList(list, 1);
     insertList(list, 2);
@@ -116,8 +123,9 @@ void test_remove_last_element() {
     printf("Тест 8: Выполнено\n");
 }
 
-void test_remove_invalid_index() {
-    List *list = newList();
+void test_remove_invalid_index()
+{
+    List* list = newList();
 
     insertList(list, 1);
     insertList(list, 2);
@@ -131,8 +139,9 @@ void test_remove_invalid_index() {
     printf("Тест 9: Выполнено\n");
 }
 
-void test_get_from_empty_list() {
-    List *list = newList();
+void test_get_from_empty_list()
+{
+    List* list = newList();
 
     assert(get(list, 0) == -1);
     assert(get(list, -1) == -1);
@@ -142,8 +151,9 @@ void test_get_from_empty_list() {
     printf("Тест 10: Выполнено\n");
 }
 
-void test_get_invalid_index() {
-    List *list = newList();
+void test_get_invalid_index()
+{
+    List* list = newList();
 
     insertList(list, 1);
     insertList(list, 2);
@@ -156,8 +166,9 @@ void test_get_invalid_index() {
     printf("Тест 11: Выполнено\n");
 }
 
-void test_insert_get_list() {
-    List *list = newList();
+void test_insert_get_list()
+{
+    List* list = newList();
 
     for (int i = 50; i >= 0; i--) {
         assert(insertList(list, i) == true);
@@ -171,27 +182,32 @@ void test_insert_get_list() {
     printf("Тест 12: Выполнено\n");
 }
 
-void test_delete_null_list() {
+void test_delete_null_list()
+{
     assert(deleteList(NULL) == false);
     printf("Тест 13: Выполнено\n");
 }
 
-void test_insert_null_list() {
+void test_insert_null_list()
+{
     assert(insertList(NULL, 10) == false);
     printf("Тест 14: Выполнено\n");
 }
 
-void test_remove_null_list() {
+void test_remove_null_list()
+{
     assert(removeList(NULL, 0) == false);
     printf("Тест 15: Выполнено\n");
 }
 
-void test_get_null_list() {
+void test_get_null_list()
+{
     assert(get(NULL, 0) == -1);
     printf("Тест 16: Выполнено\n");
 }
 
-void run_all_tests() {
+void run_all_tests()
+{
     test_new_list();
     test_insert_into_empty_list();
     test_insert_sorted_order();
@@ -212,52 +228,10 @@ void run_all_tests() {
     printf("Все тесты завершены успешно!\n");
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[])
+{
     if (argc == 2 && strcmp(argv[1], "--test") == 0) {
         run_all_tests();
         return 0;
     }
-
-    List *list = newList();
-    int command;
-
-    while (1) {
-        printf("\n0 - Выход \n");
-        printf("1 - Добавить элемент \n");
-        printf("2 - Удалить элемент \n");
-        printf("3 - Вывести список \n");
-        printf("Выберите команду: ");
-
-        if (scanf("%d", &command) != 1) {
-            printf("Ошибка ввода! Введите число.\n");
-            while (getchar() != '\n'); // Очистка буфера ввода
-            continue;
-        }
-
-        switch (command) {
-            case 0:
-                deleteList(list);
-                return 0;
-            case 1: {
-                int value;
-                printf("Введите значение: ");
-                scanf("%d", &value);
-                insertList(list, value);
-                break;
-            }
-            case 2: {
-                int idx;
-                printf("Введите индекс: ");
-                scanf("%d", &idx);
-                removeList(list, idx);
-                break;
-            }
-            case 3:
-                printList(list);
-                break;
-            default:
-                printf("Неизвестная команда!\n");
-        }
-    }
-    return 0;
 }
