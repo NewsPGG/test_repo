@@ -9,8 +9,7 @@ void to_binary_twos_complement(int num, int binary[8])
     }
 }
 
-int add_binary_twos_complement(const int a_bin[8], const int b_bin[8],
-                               int sum_bin[8])
+int add_binary_twos_complement(const int a_bin[8], const int b_bin[8], int sum_bin[8])
 {
     int carry = 0;
 

@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 void to_binary_twos_complement(int num, int binary[8]);
-int add_binary_twos_complement(const int a_bin[8], const int b_bin[8],
-                               int sum_bin[8]);
+int add_binary_twos_complement(const int a_bin[8], const int b_bin[8], int sum_bin[8]);
 int from_binary_twos_complement(const int binary[8]);
 
 int main()
@@ -63,7 +62,7 @@ int main()
         printf("%d", binary[i]);
     }
 
-    int expected[8] = {0, 0, 0, 0, 1, 0, 1, 0};
+    int expected[8] = { 0, 0, 0, 0, 1, 0, 1, 0 };
     int correct = 1;
     for (int i = 0; i < 8; i++) {
         if (binary[i] != expected[i]) {
