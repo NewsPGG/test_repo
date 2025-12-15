@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int array[100], n, m;
     scanf("%d %d", &n, &m);
 

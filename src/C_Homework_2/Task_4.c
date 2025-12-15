@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int counts[28] = {0};
 
     for (int a = 0; a <= 9; a++) {
