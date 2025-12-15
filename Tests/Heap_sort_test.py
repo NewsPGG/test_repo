@@ -1,4 +1,4 @@
-from src/Python_Homework_6/Heap_sort.py import heap_sort
+from src.Python_Homework_6.Heap_sort.py import heap_sort
 import pytest
 
 @pytest.mark.parametrize(
