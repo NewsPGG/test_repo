@@ -9,7 +9,7 @@ add_executable(SortedList
     SortedList.c
 )
 
-target_include_directogries(SortedList PRIVATE .)
+target_include_directories(SortedList PRIVATE .)
 
 enable_testing()
 add_test(NAME SortedListTest COMMAND Tests_to_sorted_list --test)
