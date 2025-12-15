@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-List *newList()
+List* newList()
 {
     List* list = calloc(1, sizeof(List));
     list->head = NULL;
@@ -29,7 +29,7 @@ bool insertList(List* list, int value)
         return true;
     }
 
-    ListNode *current = list->head;
+    ListNode* current = list->head;
     while ((current->next != NULL) && (current->next->value < value)) {
         current = current->next;
     }
@@ -82,7 +82,7 @@ int get(List* list, int index)
     return -1;
 }
 
-void printList(List *list)
+void printList(List* list)
 {
     if (list == NULL || list->head == NULL) {
         printf("Список пуст!\n");
