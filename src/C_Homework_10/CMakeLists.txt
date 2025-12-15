@@ -1,4 +1,4 @@
-ake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.10)
 project(StackProjects)
 
 set(CMAKE_C_STANDARD 11)
@@ -9,7 +9,7 @@ add_executable(SortedList
     SortedList.c
 )
 
-target_include_directories(SortedList PRIVATE .)
+target_include_directogries(SortedList PRIVATE .)
 
 enable_testing()
 add_test(NAME SortedListTest COMMAND Tests_to_sorted_list --test)
