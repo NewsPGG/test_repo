@@ -10,12 +10,12 @@ typedef struct List {
     struct ListNode* head;
 } List;
 
-List *newList();
+List* newList();
 
-void appendList(List *list, int value);
+void appendList(List* list, int value);
 
-bool symmetricList(List *list);
+bool symmetricList(List* list);
 
-void printList(List *list);
+void printList(List* list);
 
-void freeList(List *list);
+void freeList(List* list);

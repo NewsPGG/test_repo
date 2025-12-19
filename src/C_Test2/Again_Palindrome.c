@@ -1,7 +1,8 @@
 #include "List.h"
 #include "stdio.h"
 
-int main() {
+int main()
+{
     List* list = newList();
 
     int number;

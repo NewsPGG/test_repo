@@ -1,11 +1,11 @@
-#include "list.h"
+#include "List.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 
 List* newList()
 {
-    List* list = calloc(1,sizeof(List));
+    List* list = calloc(1, sizeof(List));
     list->head = NULL;
     return list;
 }
