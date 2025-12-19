@@ -1,4 +1,4 @@
-g#include <stdio.h>
+#include <stdio.h>
 
 int bubble_sort(int *array, int size) {
     int flag = 1;
