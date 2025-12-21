@@ -53,6 +53,5 @@ int main()
 
     printf("Ответ: %d\n", current->pos);
     free(current);
-    
     return 0;
 }
