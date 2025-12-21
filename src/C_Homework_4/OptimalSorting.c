@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int bubble_sort(int *array, int size) {
+int bubble_sort(int* array, int size)
+{
     int flag = 1;
     int counter = 0;
     while (flag) {
@@ -18,7 +19,8 @@ int bubble_sort(int *array, int size) {
     return counter;
 }
 
-int main() {
+int main()
+{
     int array[100];
     int size = 0;
 
