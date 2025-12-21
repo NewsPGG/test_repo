@@ -11,19 +11,19 @@ typedef struct List {
 } List;
 
 // Создание нового списка
-List *newList();
+List* newList();
 
 // Добавление элемента в список
-bool insertList(List *list, int value);
+bool insertList(List* list, int value);
 
 // Удалить элемент из списка по индексу
-bool removeList(List *list, int index);
+bool removeList(List* list, int index);
 
 // Вывести элемент из списка по индексу
-int get(List *list, int index);
+int get(List* list, int index);
 
 // Вывести весь список
-void printList(List *list);
+void printList(List* list);
 
 // Удалить список, освободить память
-bool deleteList(List *list);
+bool deleteList(List* list);

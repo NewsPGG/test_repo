@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    List *list = newList();
+    List* list = newList();
     int command;
 
     while (1) {
