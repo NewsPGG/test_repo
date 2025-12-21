@@ -9,15 +9,15 @@ add_executable(Task1
 )
 
 add_executable(Task2
-        Task_2.c.c
+        Task_2.c
 )
 
 add_executable(Task3
-        Task_3.c.c
+        Task_3.c
 )
 
 add_executable(Task4
-        Task_4.c.c
+        Task_4.c
 )
 
 target_include_directories(Task1 PRIVATE .)
