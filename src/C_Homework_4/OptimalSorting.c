@@ -25,7 +25,7 @@ int main()
     int size = 0;
 
     printf("Введите числа: ");
-    while (scanf("%d", &array[size]) ==gi 1 && size < 100) {
+    while (scanf("%d", &array[size]) == 1 && size < 100) {
         size++;
     }
 
