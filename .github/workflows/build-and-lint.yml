@@ -1,0 +1,16 @@
+name: Build and lint
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build-and-lint:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install clang-format
+        run: brew install clang-format
+      - name: Check format
+        run: |
+          find . -path ./build -prune -o -type f \( -name "*.c" -o -name "*.h" \) -print | xargs clang-format --style=file --dry-run -Werror

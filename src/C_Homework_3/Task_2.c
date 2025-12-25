@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int check(const char *S, const char *S1)
+int check(const char* S, const char* S1)
 {
     int count = 0;
     int lenS = strlen(S);
