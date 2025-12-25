@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "SortedList.h"
+#include <stdio.h>
 
 int main()
 {
