@@ -2,14 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Stack new() {
+struct Stack stack_new() {
     struct Stack stack = {
         .head = NULL
     };
     return stack;
 }
 
-void push(struct Stack* stack, int value)
+void stack_push(struct Stack* stack, int value)
 {
     struct StackNode* node = malloc(sizeof(struct StackNode));
     node->value = value;
@@ -17,7 +17,7 @@ void push(struct Stack* stack, int value)
     stack->head = node;
 }
 
-int pop(struct Stack* stack)
+int stack_pop(struct Stack* stack)
 {
     if (stack->head != NULL) {
         struct StackNode* oldNode = stack->head;
@@ -30,7 +30,7 @@ int pop(struct Stack* stack)
     }
 }
 
-int peek(struct Stack* stack)
+int stack_peek(struct Stack* stack)
 {
     if (stack->head != NULL) {
         return stack->head->value;
@@ -39,7 +39,7 @@ int peek(struct Stack* stack)
     }
 }
 
-void delete(struct Stack* stack)
+void stack_delete(struct Stack* stack)
 {
     while (stack->head != NULL) {
         pop(stack);

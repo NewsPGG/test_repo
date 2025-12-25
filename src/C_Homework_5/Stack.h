@@ -10,16 +10,16 @@ struct Stack {
 };
 
 // Создание нового стека
-struct Stack new();
+struct Stack stack_new();
 
 // Положить элемент на стек
-void push(struct Stack* stack, int value);
+void stack_push(struct Stack* stack, int value);
 
 // Взять элемент со стека
-int pop(struct Stack* stack);
+int stack_pop(struct Stack* stack);
 
 // Посмотреть на вершину стека
-int peek(struct Stack* stack);
+int stack_peek(struct Stack* stack);
 
 // Удалить весь стек (освободить память)
-void delete(struct Stack* stack);
+void stack_delete(struct Stack* stack);

@@ -21,7 +21,7 @@ bool checkBracket(char open, char closed)
 
 int main()
 {
-    struct Stack myStack = new();
+    struct Stack myStack = stack_new();
     printf("Введите строку для проверки: \n");
     char symbols[100];
     scanf("%s", symbols);
@@ -31,15 +31,15 @@ int main()
 
     for (int i = 0; i < length; ++i) {
         if (symbols[i] == '(' || symbols[i] == '[' || symbols[i] == '{') {
-            push(&myStack, symbols[i]);
+            stack_push(&myStack, symbols[i]);
         } else if (symbols[i] == ')' || symbols[i] == ']' || symbols[i] == '}') {
             // Если стек пустой и текущий символ - закрывающаяся скобка, меняем значение error
-            if (peek(&myStack) == -1) {
+            if (stack_peek(&myStack) == -1) {
                 error = true;
                 break;
             }
-            if (checkBracket(peek(&myStack), symbols[i])) {
-                pop(&myStack);
+            if (checkBracket(stack_peek(&myStack), symbols[i])) {
+                stack_pop(&myStack);
             // Если баланс скобок не соблюден, меняем значение error
             } else {
                 error = true;
@@ -54,12 +54,12 @@ int main()
     // Если количество символов, не являющихся скобками, равно длине строки, то скобок нет
     if (count_not_bracket == length) {
         printf("Скобки не обнаружены!\n");
-    } else if (error || peek(&myStack) != -1) {
+    } else if (error || stack_peek(&myStack) != -1) {
         printf("Баланс скобочек не соблюдён ((\n");
     } else {
         printf("Баланс скобочек соблюдён!\n");
     }
 
-    delete(&myStack);
+    stack_delete(&myStack);
     return 0;
 }
