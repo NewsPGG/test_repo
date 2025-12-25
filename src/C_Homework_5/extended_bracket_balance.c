@@ -11,9 +11,9 @@
 
 bool checkBracket(char open, char closed)
 {
-    if ((open == '(' && closed == ')') ||
-        (open == '[' && closed == ']') ||
-        (open == '{' && closed == '}')) {
+    if ((open == '(' && closed == ')')
+        || (open == '[' && closed == ']')
+        || (open == '{' && closed == '}')) {
         return true;
     }
     return false;
@@ -40,7 +40,7 @@ int main()
             }
             if (checkBracket(stack_peek(&myStack), symbols[i])) {
                 stack_pop(&myStack);
-            // Если баланс скобок не соблюден, меняем значение error
+                // Если баланс скобок не соблюден, меняем значение error
             } else {
                 error = true;
                 break;

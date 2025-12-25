@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Stack stack_new() {
+struct Stack stack_new()
+{
     struct Stack stack = {
         .head = NULL
     };
@@ -42,6 +43,6 @@ int stack_peek(struct Stack* stack)
 void stack_delete(struct Stack* stack)
 {
     while (stack->head != NULL) {
-        pop(stack);
+        stack_pop(stack);
     }
 }
