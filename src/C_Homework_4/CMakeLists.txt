@@ -1,2 +1,2 @@
-add_executable(sorting main.c sort.c)
+add_executable(sorting main.c sort.s)
 target_link_libraries(sorting PRIVATE sort)
