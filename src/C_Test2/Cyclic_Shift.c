@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 
 void cyclicShift(bool numbers[], int n)
 {
@@ -28,7 +28,8 @@ int binaryToDecimal(bool numbers[], int n)
     return decimal;
 }
 
-int main() {
+int main()
+{
     int n;
     int size = 0;
     printf("Введите число N: ");
