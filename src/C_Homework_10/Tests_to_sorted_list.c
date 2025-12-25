@@ -1,7 +1,7 @@
 #include "SortedList.h"
+#include <assert.h>
 #include <stdio.h>
 #include <string.h>
-#include <assert.h>
 
 void test_new_list()
 {
