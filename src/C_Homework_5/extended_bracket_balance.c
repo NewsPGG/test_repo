@@ -1,7 +1,7 @@
 #include "Stack.h"
+#include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
-#include <stdbool.h>
 
 /**
  * Все изменения описаны в комментариях
@@ -9,7 +9,8 @@
  * соблюден ли баланс скобок на вершине стека (open) и текущего символа строки (closed)
  **/
 
-bool checkBracket(char open, char closed) {
+bool checkBracket(char open, char closed)
+{
     if ((open == '(' && closed == ')') ||
         (open == '[' && closed == ']') ||
         (open == '{' && closed == '}')) {
@@ -18,7 +19,8 @@ bool checkBracket(char open, char closed) {
     return false;
 }
 
-int main() {
+int main()
+{
     struct Stack myStack = new();
     printf("Введите строку для проверки: \n");
     char symbols[100];
@@ -30,8 +32,7 @@ int main() {
     for (int i = 0; i < length; ++i) {
         if (symbols[i] == '(' || symbols[i] == '[' || symbols[i] == '{') {
             push(&myStack, symbols[i]);
-        }
-        else if (symbols[i] == ')' || symbols[i] == ']' || symbols[i] == '}') {
+        } else if (symbols[i] == ')' || symbols[i] == ']' || symbols[i] == '}') {
             // Если стек пустой и текущий символ - закрывающаяся скобка, меняем значение error
             if (peek(&myStack) == -1) {
                 error = true;
@@ -44,9 +45,8 @@ int main() {
                 error = true;
                 break;
             }
-        }
-        // Если текущий символ - не скобка, увеличиваем значение count_not_bracket
-        else {
+            // Если текущий символ - не скобка, увеличиваем значение count_not_bracket
+        } else {
             count_not_bracket++;
         }
     }
@@ -54,11 +54,9 @@ int main() {
     // Если количество символов, не являющихся скобками, равно длине строки, то скобок нет
     if (count_not_bracket == length) {
         printf("Скобки не обнаружены!\n");
-    }
-    else if (error || peek(&myStack) != -1) {
+    } else if (error || peek(&myStack) != -1) {
         printf("Баланс скобочек не соблюдён ((\n");
-    }
-    else {
+    } else {
         printf("Баланс скобочек соблюдён!\n");
     }
 
