@@ -1,10 +1,20 @@
 cmake_minimum_required(VERSION 3.10)
-project(double_parser)
+project(Homework12)
 
-add_library(double_parser_lib double_parser.c)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
 
-add_executable(main main.c)
-target_link_libraries(main double_parser_lib m)
+add_executable(binary_representation
+    binary_representation.c
+)
 
-add_executable(test test.c)
-target_link_libraries(test double_parser_lib m)
+add_executable(double_parser
+        double_parser.c
+)
+
+target_include_directories(binary_representation PRIVATE .)
+target_include_directories(double_parser PRIVATE .)
+
+enable_testing()
+add_test(NAME binary_representation COMMAND tests_to_binary_representation --test)
+add_test(NAME double_parser COMMAND double_parses_test --test)
