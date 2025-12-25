@@ -3,20 +3,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-List *newList()
+List* newList()
 {
-    List *list = calloc(1, sizeof(List));
+    List* list = calloc(1, sizeof(List));
     list->head = NULL;
     return list;
 }
 
-bool insertList(List *list, int value)
+bool insertList(List* list, int value)
 {
     if (list == NULL) {
         return false;
     }
 
-    ListNode *newNode = malloc(sizeof(ListNode));
+    ListNode* newNode = malloc(sizeof(ListNode));
     if (newNode == NULL) {
         return false;
     }
@@ -29,7 +29,7 @@ bool insertList(List *list, int value)
         return true;
     }
 
-    ListNode *current = list->head;
+    ListNode* current = list->head;
     while ((current->next != NULL) && (current->next->value < value)) {
         current = current->next;
     }
@@ -38,19 +38,19 @@ bool insertList(List *list, int value)
     return true;
 }
 
-bool removeList(List *list, int index)
+bool removeList(List* list, int index)
 {
     if (index < 0 || list == NULL || list->head == NULL) {
         return false;
     }
 
     if (index == 0) {
-        ListNode *popNode = list->head;
+        ListNode* popNode = list->head;
         list->head = popNode->next;
         free(popNode);
         return true;
     }
-    ListNode *current = list->head;
+    ListNode* current = list->head;
     int idx = 0;
     while ((current != NULL) && (current->next != NULL)) {
         if (idx == index - 1) {
@@ -65,12 +65,12 @@ bool removeList(List *list, int index)
     return false;
 }
 
-int get(List *list, int index)
+int get(List* list, int index)
 {
     if (list == NULL || list->head == NULL || index < 0) {
         return -1;
     }
-    ListNode *current = list->head;
+    ListNode* current = list->head;
     int idx = 0;
     while (current != NULL) {
         if (index == idx) {
@@ -82,14 +82,14 @@ int get(List *list, int index)
     return -1;
 }
 
-void printList(List *list)
+void printList(List* list)
 {
     if (list == NULL || list->head == NULL) {
         printf("Список пуст!\n");
         return;
     }
 
-    ListNode *current = list->head;
+    ListNode* current = list->head;
     while (current != NULL) {
         printf("%d ", current->value);
         current = current->next;
@@ -97,7 +97,7 @@ void printList(List *list)
     printf("\n");
 }
 
-bool deleteList(List *list)
+bool deleteList(List* list)
 {
     if (list == NULL) {
         return false;
